@@ -1,6 +1,3 @@
-import { SignerWallet, SolanaProvider } from "@saberhq/solana-contrib";
-import { Connection, Keypair } from "@solana/web3.js";
-import { LCDClient } from "@terra-money/terra.js";
 import axios from "axios";
 import * as fs from "fs/promises";
 
@@ -8,20 +5,7 @@ interface Rebase {
   terraTx: string;
 }
 
-// search most recent transactions and add them
-// search unredeemed and check if redeemed
-
 export const fetchRebases = async (): Promise<void> => {
-  const provider = SolanaProvider.load({
-    connection: new Connection("https://sencha.rpcpool.com"),
-    wallet: new SignerWallet(Keypair.generate()),
-  });
-
-  const lcd = new LCDClient({
-    URL: "https://lcd.terra.dev",
-    chainID: "columbus-5",
-  });
-
   const txs = await axios.get(
     "https://api.extraterrestrial.money/v1/txs/by_account?account=terra12dt7sfw3wkuhh2ys6cj8a5glrzpxdhdgyt6j24"
   );

@@ -11,7 +11,7 @@ on:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    name: Refresh Sencha Swap Registry
+    name: Refresh Soluna Rebase Registry
 
     steps:
       - uses: actions/checkout@v2
@@ -29,8 +29,8 @@ jobs:
       - run: yarn registry:sync
       - run: |
           if [ "$(git diff-index HEAD)" != '' ]; then
-            git config --global user.email "sensei-bot@sencha.so"
-            git config --global user.name "Sensei Sencha"
+            git config --global user.email "kyscott@umich.edu"
+            git config --global user.name "kyscott18"
             git add .
             git commit -m "Update list"
             git push origin HEAD
