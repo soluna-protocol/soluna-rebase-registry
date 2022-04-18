@@ -23,7 +23,7 @@ export const fetchRebases = async (): Promise<void> => {
       txs.data.txs.filter(
         (tx: { txhash: string }) => !rebaseSet.has(tx.txhash)
       ) as { txhash: string }[]
-    ).map(async ({ txhash }) => ({
+    ).map(({ txhash }) => ({
       terraTx: txhash,
     }))
   );
