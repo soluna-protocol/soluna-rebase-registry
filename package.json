@@ -36,7 +36,7 @@
     "bn.js": "^5.2.0",
     "browser-headers": "^0.4.1",
     "ethers": "^5.6.4",
-    "jsbi": "^4.2.1",
+    "jsbi": "^4.3.0",
     "lodash": "^4.17.21",
     "long": "^5.2.0",
     "tiny-invariant": "^1.2.0"
