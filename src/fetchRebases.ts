@@ -5,8 +5,16 @@ interface Rebase {
   terraTx: string;
 }
 
+interface Txs {
+  data: {
+    txs: {
+      txhash: string;
+    }[];
+  };
+}
+
 export const fetchRebases = async (): Promise<void> => {
-  const txs = await axios.get(
+  const txs: Txs = await axios.get(
     "https://api.extraterrestrial.money/v1/txs/by_account?account=terra12dt7sfw3wkuhh2ys6cj8a5glrzpxdhdgyt6j24"
   );
 
