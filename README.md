@@ -1,6 +1,6 @@
-# `sencha-registry`
+# `soluna-rebase-registry`
 
-Fetches and caches all known Sencha pools.
+Fetches and caches all rebases as a fallback mechanism when a rebase is not redeemed.
 
 ## Usage
 

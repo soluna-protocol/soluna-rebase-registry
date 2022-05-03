@@ -1,10 +1,10 @@
 {
-  "name": "@senchahq/sencha-registry",
+  "name": "@soluna-protocol/soluna-rebase-registry",
   "private": true,
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:senchahq/sencha-registry.git",
-  "author": "Johanna Johansson <jj@sencha.so>",
+  "repository": "git@github.com:soluna-protocol/soluna-rebase-registry.git",
+  "author": "Kyle Scott <kyle@dahlia.finance>",
   "license": "AGPL-3.0",
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
