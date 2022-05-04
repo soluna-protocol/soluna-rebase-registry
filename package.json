@@ -46,6 +46,7 @@
   },
   "scripts": {
     "registry:sync": "ts-node src/fetchRebases.ts",
+    "registry:redeem": "ts-node src/fetchRedeem.ts",
     "prepare": "husky install",
     "build": "tsc",
     "typecheck": "tsc",
