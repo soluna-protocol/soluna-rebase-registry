@@ -1077,34 +1077,34 @@
   },
   {
     "terraTx": "700A2C9A9416E7C1EFF692D54C79216E82850E6ED2220B3D24D512B479B45E41",
-    "redeemed": false
+    "redeemed": true
   },
   {
     "terraTx": "54282DBAB8897318DF4847455669B05AF5CBE799C2682D6B2DE2B5360528BFFF",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "ACCDE580CC04CCB4F6A74C20B13BAF4D98DDE9F0F372165710D8123EEA3B5777",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "A85BD5E431F1ADAB62660A0EB18797B5B0F95BDCA2715AB4354060A2E2FF0B85",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "21A1EC8D7364222E5FDD8BCBD7E7A299B0C5C8E07775CBF5301C89B59E3ACE1F",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "225908FFD50251E683A63D56DF75E664B9529027E7B69E82AA7AE73BB98605DC",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "C9D33124807919242EC540EE75F2A6FF1B212FE4EF387A0AA6F32F7D232F4F4C",
-    "redeemed": null
+    "redeemed": true
   },
   {
     "terraTx": "9FA8EF491B40FAE6E68069E6D963CC438E4BE4A2C8D211E8F4AFF52173E3E365",
-    "redeemed": null
+    "redeemed": true
   }
 ]
