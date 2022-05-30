@@ -2,7 +2,7 @@
 
 Fetches and caches all rebases as a fallback mechanism when a rebase is not redeemed.
 
-## Depreacted
+## Deprecated
 
 This software is no longer operational because of the deprecation of the Terra Exterrastrial finder.
 
